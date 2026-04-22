@@ -61,7 +61,7 @@ class RemoteWhitelistProvider @Inject constructor(
         get() = Preferences.getString(
             context,
             Preferences.PREFERENCE_REMOTE_WHITELIST_URL,
-            "https://gist.githubusercontent.com/kobiamos001/05d1f1053609259b36cf284fc8882093/raw/4c5b884c085083f36612d1f382d123095804207a/whitelist.json"
+            "https://gist.githubusercontent.com/kobiamos001/05d1f1053609259b36cf284fc8882093/raw/whitelist.json"
         )
         set(value) = Preferences.putString(context, Preferences.PREFERENCE_REMOTE_WHITELIST_URL, value)
 
